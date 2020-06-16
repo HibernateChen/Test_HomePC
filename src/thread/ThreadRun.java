@@ -5,6 +5,7 @@ import java.util.concurrent.Executors;
 
 public class ThreadRun {
     public static void main(String[] args) {
+        int a = 0;
         long startTime1 = System.currentTimeMillis();
         for(int i=1;i<=5;i++){
             try{
